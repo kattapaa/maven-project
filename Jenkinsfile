@@ -13,6 +13,7 @@ node {
    }
    stage('Test execution'){
        echo 'Test Executed..'
+       sh 'mvn test'
    }
    stage('Results') {
      echo 'Results saved..'
