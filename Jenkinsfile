@@ -1,5 +1,5 @@
 node {
-   stage('ChecOut Code') { // for display purposes
+   stage('ChecOut Code') { 
       // Get some code from a GitHub repository
       git 'https://github.com/kattapaa/maven-project.git'
       
